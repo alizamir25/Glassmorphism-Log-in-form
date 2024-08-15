@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #080710;
+  background-color: #000000;
 }
 .form-1{
   height: 100vh;
@@ -26,12 +26,12 @@ body{
   border-radius: 50%;
 }
 .shape:first-child{
-  background: linear-gradient( #1845ad, #23a2f6);
+  background: linear-gradient( #0543d3, #339ce2);
   left:-80px;
   top: -80px;
 }
 .shape:last-child{
-  background: linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #eb2f09, #e4890b);
   right: -30px;
   bottom: -80px;
 }
@@ -47,7 +47,7 @@ form{
   border-radius: 10px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur( 10px );
-  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
   padding: 50px 35px; 
 }
 form *{
@@ -82,13 +82,13 @@ form *{
   font-weight: 300;
 }
 .form-1 ::placeholder{
-  color: #e5e5e5;
+  color: #ffffff;
 }
 .form-1 button {
   margin-top: 50px;
   width: 100%;
   background-color: #ffffff;
-  color: #080710;
+  color: #000000;
   padding: 16px 0;
   font-size: 18px;
   font-weight: 600;
@@ -100,7 +100,7 @@ form *{
   justify-content: center;
 }
 button .login{
-  color: #080710;
+  color: #000000;
   margin-left: 3px;
 }
 .social{
@@ -114,7 +114,7 @@ button .login{
   border-radius: 4px;
   padding: 10px 10px 10px 10px;
   background-color: rgba(255,255,255,0.27);
-  color: #eaf0fb;
+  color: #ffffff;
   text-align: center;
   cursor: pointer;
 }
