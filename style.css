@@ -1,19 +1,16 @@
-*,
+*
 *:before,
 *:after{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 body{
   background-color: #080710;
 }
-
 .form-1{
   height: 100vh;
 }
-
 .background{
   width: 430px;
   height: 520px;
@@ -22,26 +19,22 @@ body{
   left: 50%;
   top: 0%;
 }
-
 .background .shape{
   height: 200px;
   width: 200px;
   position: absolute;
   border-radius: 50%;
 }
-
 .shape:first-child{
   background: linear-gradient( #1845ad, #23a2f6);
   left:-80px;
   top: -80px;
 }
-
 .shape:last-child{
   background: linear-gradient(to right, #ff512f, #f09819);
   right: -30px;
   bottom: -80px;
 }
-
 form{
   border: 2px solid rgba(255,255,255,0.1);
   height: 520px;
@@ -57,7 +50,6 @@ form{
   box-shadow: 0 0 40px rgba(8,7,16,0.6);
   padding: 50px 35px; 
 }
-
 form *{
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
@@ -65,8 +57,6 @@ form *{
   outline: none;
   border: none;
 }
-
-
 .form-1 form h3{
   font-size: 32px;
   font-weight: 500;
@@ -74,14 +64,12 @@ form *{
   text-align: center;
   text-transform: uppercase;
 }
-
 .form-1 label{
   display: block;
   margin-top: 30px;
   font-size: 16px;
   font-weight: 500;
 }
-
 .form-1 input{
   display: block;
   height: 50px;
@@ -93,11 +81,9 @@ form *{
   font-size: 14px;
   font-weight: 300;
 }
-
 .form-1 ::placeholder{
   color: #e5e5e5;
 }
-
 .form-1 button {
   margin-top: 50px;
   width: 100%;
@@ -113,19 +99,16 @@ form *{
   align-items: center;
   justify-content: center;
 }
-
 button .login{
   color: #080710;
   margin-left: 3px;
 }
-
 .social{
   margin-top: 30px;
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
-
 .social div{
   width: 150px;
   border-radius: 4px;
@@ -135,9 +118,6 @@ button .login{
   text-align: center;
   cursor: pointer;
 }
-
 .social div:hover{
   background-color: rgba(255,255,255,0.47);
 }
-
-
